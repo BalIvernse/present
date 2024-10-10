@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./static/style.css">
+        <link rel="stylesheet" href="./static/style1.css">
+        <script src="./static/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <div id="consigne"><p>Qu'est-ce qu'on fait dans ce lieu ?</p><button id="info">Infos</button></div>
+        <div id="container">
+        <div id="affichage_des_cartes">
+            <div id="situation" class="situation"></div>
+            <div id="pronom" class="pronom"></div>
+            <div id="verbes" class="verbes">
+                <div id="v1" class="verbe"></div>
+                <div id="v2" class="verbe"></div>
+                <div id="v3" class="verbe"></div>
+            </div>
+        </div>
+        <div class="btn">
+            <button id="jouer">JOUER</button>
+        </div>
+        </div>
+        <div id="info_text">
+            <h1>Variante 1 : </h1>
+            <p>À chaque tour, cliquez sur le bouton « JOUER » et demandez à un apprenant différent de faire une phrase au présent en utilisant un des trois verbes et le pronom qui s’affichent pour décrire une chose qu’on peut faire dans le lieu représenté sur l’image.</p>
+            <p>Si la phrase est grammaticalement correcte et en rapport avec l’image, l’apprenant gagne 1 point. </p>
+            <p>Celui ou celle qui a le plus de points à la fin du jeu gagne la partie. Si vous ne souhaitez pas de compétition entre vos apprenants, vous pouvez utiliser l’activité comme un simple exercice de production en ne donnant pas de points.</p>
+            <h1>Variante 2 :</h1>
+            <p>Chaque tour, cliquez sur le bouton « JOUER ». Le premier apprenant qui fait une phrase grammaticalement correcte en utilisant le lieu, le pronom et un des trois verbes (au choix) gagne 1 point.</p>
+            <p>Celui ou celle qui a le plus de points à la fin du jeu gagne la partie.</p>
+            <button class="bouton" id="exit_info">Retourner à l'activité</button>
+        </div>
+        <div id="logo"><a href="https://leszexpertsfle.com/"><img src="./cards/logo.png"></a></div>
+        <script src="./static/functions.js"></script>
+        <script type="text/javascript" src="./static/main1.js"></script>
+    </body>
+</html>

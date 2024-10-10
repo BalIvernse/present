@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./static/style.css">
+        <link rel="stylesheet" href="./static/style3.css">
+        <script src="./static/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <div id="consigne"><p>Qu’est-ce qu’ils/elles font dans leur travail ?</p><button id="info">Infos</button></div>
+        <div id="container">
+        <div id="affichage_des_cartes">
+            <div id="profession" class="profession"></div>
+            <div id="verbes">
+                <div class="verbe"></div>
+                <div class="verbe"></div>
+                <div class="verbe"></div>
+            </div>
+        </div>
+        <div class="btn">
+            <button id="jouer">JOUER</button>
+            <button id="changer_verbes">CHANGER LES VERBES</button>
+        </div>
+        </div>
+        <div id="info_text">
+            <p>Cliquez sur le bouton « JOUER ». Sur l’écran, une image représentant une profession et trois verbes à l’infinitif apparaissent. Le premier apprenant qui prononce une phrase grammaticalement correcte au présent (ils/elles) décrivant une activité que font les membres de cette profession gagne un point. Si tous les apprenants bloquent, changez les verbes en cliquant sur le bouton « CHANGER LES VERBES »</p>
+            <p>En cas de doute, laissez-les apprenants négocier (voire voter) sur la pertinence d’une proposition.</p>
+            <p>Cliquez de nouveau sur le bouton « JOUER » et continuez autant de fois que vous le souhaitez. L’apprenant qui a le plus de points à la fin gagne la partie.</p>
+            <button class="bouton" id="exit_info">Retourner à l'activité</button>
+        </div>
+        <div id="logo"><a href="https://leszexpertsfle.com/"><img src="./cards/logo.png"></a></div>
+        <script src="./static/functions.js"></script>
+        <script type="text/javascript" src="./static/main3.js"></script>
+    </body>
+</html>

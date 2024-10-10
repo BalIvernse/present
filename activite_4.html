@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./static/style.css">
+        <link rel="stylesheet" href="./static/style4.css">
+        <script src="./static/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <div id="consigne">
+            <p>Travaillez par deux. Posez des questions et répondez-y !</p>
+            <button id="info">Infos</button>
+        </div>
+        <div id="container">
+            <div id="affichage_des_cartes">
+                <div id="question" class="question">
+                    <div class="btn">
+                        <button id="demander">NOUVELLE QUESTION</button>
+                    </div>
+                    <div id="question_elts" class="scd">
+                        <div class="debut"></div>
+                        <div class="question_img"></div>
+                        <div class="question_mark" style="height: 90%;display: flex;align-items: center;"></div>
+                    </div>
+                </div>
+                <div id="reponse">
+                    <div class="btn">
+                        <button id="repondre">RÉPONDRE</button>
+                    </div>
+                    <div id="verbes" class="verbes scd">
+                        <div class="verbe"></div>
+                        <div class="verbe"></div>
+                        <div class="verbe"></div>
+                        <div class="verbe"></div>
+                        <div class="verbe"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="info_text">
+            <h1>Variante 1 : </h1>
+            <p>Les apprenants jouent en binôme. Choisissez un binôme. Cliquez sur le bouton « NOUVELLE QUESTION ». Il apparaît un début de phrase, par exemple : « Qu’est-ce que je fais quand… » et une image. Le premier apprenant finit la phrase en s’inspirant de l’image et pose la question à son camarade. Cliquez ensuite sur le bouton « RÉPONDRE ». 5 verbes apparaissent. Le deuxième apprenant choisit un verbe et fait une phrase au présent avec ce verbe pour répondre à la question. La réponse doit être grammaticalement correcte et logique : en cas de doute, vous pouvez demander à l’élève de justifier sa proposition. Attribuez un point au binôme si la question et la réponse étaient correctes. Passez ensuite au binôme suivant en cliquant de nouveau sur le bouton « NOUVELLE QUESTION », et ainsi de suite. Faites au moins deux tours de table pour que chaque apprenant pose au moins une question et donne au moins une réponse, puis comptez les points.</p>
+            <h1>Variante 2 :</h1>
+            <p>Cette variante est similaire à la première version mais le but est d’utiliser le maximum de verbes qui s’affichent à l’écran dans la réponse à la question. Si la question et la réponse sont correctes, donnez autant de points que de verbes utilisés. </p>
+            <button class="bouton" id="exit_info">Retourner à l'activité</button>
+        </div>
+        <div id="logo"><a href="https://leszexpertsfle.com/"><img src="./cards/logo.png"></a></div>
+        <script src="./static/functions.js"></script>
+        <script type="text/javascript" src="./static/main4.js"></script>
+    </body>
+</html>
